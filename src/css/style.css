@@ -1,0 +1,291 @@
+:root {
+    --bg-color-white: #ffffff;
+    --bg-color-white-hl: #efefef;
+    --bg-color-beige: #f9f8f7;
+    --bg-color-beige-hl: #e9e8e7;
+    --txt-color-beige: #d4b68a;
+    --txt-color-beige-hl: #c4a67a;
+    --txt-color-dark: #353333;
+    --txt-color-dark-hl: #454343;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+.box.header {
+    background: cyan;
+}
+
+.inner__header {
+    background: lightgoldenrodyellow;
+    margin: 2rem auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+}
+
+/***** HEADER *****/
+.logo {
+    margin: 0;
+    padding: 0;
+    max-width: 20%;
+    width: 16rem;
+    background: hotpink;
+}
+
+.logo .logo__img {
+    margin: 0;
+    padding: 0;
+    background: blue;
+}
+
+.menu {
+    background: violet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu .menu__item {
+    margin: 1rem;
+    padding: 1rem;
+    background: green;
+    /*transition: color 400ms;*/
+}
+
+.menu .menu__item.menu__item--hl {
+    background: brown;
+}
+
+.menu .menu__item.menu__item--active {
+    background: pink;
+}
+
+.menu .menu__item.menu__item:hover {
+    background: greenyellow;
+    cursor: pointer;
+}
+
+.box.main {
+    background: honeydew;
+    margin: auto;
+    padding: 0;
+    max-width: 70vw;
+}
+
+/***** MAIN *****/
+.introduction {
+    background: rebeccapurple;
+    max-width: 50%  ;
+}
+
+.introduction .introduction__hdl {
+    background: olive;
+    text-transform: uppercase;
+}
+
+.introduction .introduction__content {
+    background: hotpink;
+}
+
+.introduction .introduction__content .introduction__content--hl {
+    background: peru;
+}
+
+.down-arrow {
+    width: 15px;
+    background: mediumorchid;
+}
+
+.down-arrow .down-arrow__img {
+    width: 3rem;
+    background: mediumspringgreen;
+}
+
+.slider {
+    display: flex;
+    background: red;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider .slider__slide {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: aqua;
+}
+
+.slider .slider__img {
+    background: cadetblue;
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    max-width: 50%;
+    background: firebrick;
+}
+
+.description .description__hdl {
+    background: lawngreen;
+}
+
+.description .description__content {
+    background: cadetblue;
+}
+
+.portfolio {
+    background: mediumorchid;
+    text-align: center;
+}
+
+.portfolio .portfolio__hdl {
+    background: blue;
+}
+
+.portfolio .portfolio__thumbnails {
+    padding: 0;
+    margin: 0;
+    background: violet;
+}
+
+.portfolio .portfolio__img {
+    padding: 0;
+    margin: 0;
+    background: mediumspringgreen;
+    width: 33%;
+}
+
+.portfolio .portfolio__btn {
+    display: block;
+    margin: auto;
+    background: palegoldenrod;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.services {
+    background: hotpink;
+    text-align: center;
+}
+
+.services .services__hdl {
+    background: blue;
+    text-transform: uppercase;
+}
+
+.services .services__content {
+    background: royalblue;
+}
+
+.services .services__columns {
+    background: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .services__column {
+    background: blue;
+}
+
+.services .services__service-hdl {
+    background: olive;
+    text-transform: uppercase;
+}
+
+.services .services__list {
+    background: darkgray;
+}
+
+.services .services__list-item {
+    background: peru;
+}
+
+.services .services__btn {
+    background: wheat;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.about-me {
+    background: cadetblue;
+}
+
+.about-me .about-me__hdl {
+    background: pink;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-me .about-me__flex {
+    display: flex;
+}
+
+.photo {
+    background: azure;
+}
+
+.photo .photo__img {
+    background: mediumorchid;
+}
+
+.about-me .about-me__full {}
+
+.about-me .about-me__name {
+    background: red;
+}
+
+.about-me .about-me__description {
+    background: magenta;
+}
+
+
+.contact {
+    background: mediumspringgreen;
+}
+
+.contact .contact__hdl {
+    background: olive;
+    text-transform: uppercase;
+}
+
+.contact .contact__content {
+    background: goldenrod;
+}
+
+.contact .contact__content.contact__content--hl {
+    background: aqua;
+}
+
+.box .footer {
+    background: lightcoral;
+}
+
+/***** FOOTER *****/
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 70vw;
+    background: coral;
+}
+
+.copyright {
+    background: hotpink;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    background: forestgreen;
+}
+
+.social__img {
+    width: 3rem;
+}
+   
